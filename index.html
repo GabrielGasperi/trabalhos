@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .curriculo {
+            border: 1px solid;
+            box-shadow: 10px 5px 5px rgba(41, 41, 41, 0.124);
+            width: 600px;
+            height: 800px;
+        }
+
+        img {
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            display: block;
+        }
+
+        .parte-preta {
+            background-color: #000000;
+            width: 270px;
+            color: #ebe8e8;
+            float: left;
+            height: 100%;
+        }
+
+        .parte-branca {
+            background-color: white;
+            width: 330px;
+            color: #000000;
+            float: right;
+        }
+
+        .conteudo-parte-preta {
+            margin: 20px;
+        }
+
+        .conteudo-parte-branca {
+            margin: 25px 25px 0 25px;
+        }
+
+        .sobre {
+            margin-top: 40px;
+        }
+
+        .contato {
+            margin-top: 15px;
+        }
+
+        h1 {
+            display: block;
+            text-transform: uppercase;
+            color: #c88c3c;
+            font-weight: 900;
+            font-size: 1.5em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        h2 {
+            display: block;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1em;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+
+        }
+
+        h3 {
+            color: #c88c3c;
+            display: block;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 0.83em;
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        p {
+            margin-top: 5px;
+            font-size: 12px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        a {
+            font-size: 12px;
+            text-decoration: none;
+            color: #ebe8e8;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            font-size: 12px;
+            padding: 3px 0;
+        }
+
+        .titulo-parte-branca {
+            background-color: #000000;
+            padding: 5px 10px;
+        }
+
+        .categorias-de-base,
+        .clubes {
+            margin-top: 25px;
+        }
+
+        .icons {
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 100%;
+            max-width: 22px;
+            background-color: white;
+            margin-right: 10px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="curriculo">
+        <!-- parte preta -->
+        <div class="parte-preta">
+            <img src="imagens/foto.jpg" alt="">
+            <div class="conteudo-parte-preta">
+                <h1>Ronaldo de Assis Moreira</h1>
+                <h2>Meia-atacante</h2>
+                <div class="sobre">
+                    <h3>SOBRE</h3>
+                    <p>Consagrado jogador de futebol brasileiro, eleito o melhor do mundo pela FIFA por dois anos
+                        consecutivos, em 2004 e
+                        2005.
+                        Campeão
+                        do mundo pela Seleção Brasileira na Copa de 2002.</p>
+                </div>
+                <div class="contato">
+                    <h3>CONTATO</h3>
+                    <p><a href="https://web.whatsapp.com/" target="_blank"><img class="icons" src="imagens/whatsapp.png"
+                                alt="">(12) 9 3456-7890</a></p>
+                    <p><a href="https://www.google.com.br/" target="_blank"><img class="icons" src="imagens/email.png"
+                                alt="">r10obruxo@gmail.com</a></p>
+                    <p><a href="https://www.instagram.com/ronaldinho/" target="_blank"><img class="icons"
+                                src="imagens/instagram.png" alt="">@ronaldinho</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- parte branca -->
+        <div class="parte-branca">
+            <div class="conteudo-parte-branca">
+                <div class="categorias-de-base">
+                    <h3 class="titulo-parte-branca">CATEGORIAS DE BASE</h3>
+                    <ul>
+                        <li>1987–1998 Grêmio Football Porto-Alegrense</li>
+                    </ul>
+                </div>
+                <div class="clubes">
+                    <h3 class="titulo-parte-branca">CLUBES</h3>
+                    <ul>
+                        <li>1998–2001 Grêmio Football Porto-Alegrense</li>
+                        <li>2001–2003 Paris Saint-Germain Football Club</li>
+                        <li>2003–2008 Futbol Club Barcelona</li>
+                        <li>2008–2010 Associazione Calcio Milan</li>
+                        <li>2011–2012 Clube de Regatas do Flamengo</li>
+                        <li>2012–2014 Clube Atlético Mineiro</li>
+                        <li>2014–2015 Querétaro Fútbol Club</li>
+                        <li>2015 Fluminense Football Club</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="titulo-parte-branca">TÍTULOS</h3>
+                    <ul>
+                        <li>1999 - Campeonato Gaúcho</li>
+                        <li>1999 - Copa Sul</li>
+                        <li>2001 - Copa Intertoto da UEFA</li>
+                        <li>2005-06 - Liga dos Campeões da UEFA</li>
+                        <li>2004-05, 2005-06 - La Liga</li>
+                        <li>2005, 2006 - Supercopa da Espanha</li>
+                        <li>2003–04, 2004–05, 2006–07 - Copa Cataluña</li>
+                        <li>2010-11 - Série A</li>
+                        <li>2011 - Campeonato Carioca</li>
+                        <li>2013 - Campeonato Mineiro</li>
+                        <li>2013 - Copa Libertadores da América</li>
+                        <li>2014 - Recopa Sul-Americana</li>
+                    </ul>
+                    <h3 class="titulo-parte-branca"> ESTATÍSTICAS</h3>
+                    <ul>
+                        <li>Jogos: 336</li>
+                        <li>Gols: 356</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
